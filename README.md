@@ -22,14 +22,13 @@ Sure, you can - that's why all the source code was shared.
 **Ping**
 
 In order to execute this test you need to run appropriate server file first and than execute client file.
-![example](http://i.imgur.com/gJu4Oi1.png)
+![example](http://i.imgur.com/gJu4Oi1.png)  
 You can of course mix stream server with socket client and vice versa.
 
 
 **Data transfer**
 
-Since it's worthless to reinvent the wheel for data transfer PHP is only a server. For client it's best to use [`wget`](https://www.gnu.org/software/wget/).
-While server files aren't complaint with HTTP `wget` will accept them and treat as `HTTP/0.9` ;)
+Since it's worthless to reinvent the wheel for data transfer PHP is only a server. For client it's best to use [`wget`](https://www.gnu.org/software/wget/). While server files aren't complaint with HTTP `wget` will accept them and treat as `HTTP/0.9` ;)
 
 I don't recommend using `netcat` and `pv` combination - you'll get very low performance (tops around 240MB/s on my machine).
 
