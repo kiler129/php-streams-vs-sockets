@@ -1,3 +1,9 @@
+# PROJECT ARCHIVED
+
+These findings were relevant in PHP 5-era. As of today (2021) we're using PHP8 and these performance differences are way smaller. Thus, this repo is left only for historical purposes.
+
+---
+
 # PHP Streams vs. Sockets
 
 ### Brief history
